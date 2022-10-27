@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="kjkf.css">
+</head>
+<body>
+      <div class="wrapper">
+
+         <!-- スタートボタン -->
+          <div>
+            <button id="button1" onclick="OnButtonClick();">スタート！</button>
+          </di>
+
+
+          <div class="vsimg"><img src="vs3.jpg" alt=""></div>
+
+          <div class="jankenpon"><img id="jankenpon" src="doracura.png" width="300px" height="300px"></div>
+
+          <div class="jankenpon2"><img id="jankenpon2" src="fighter.png" width="350px" height="300px"></div>
+        
+         <!-- 対戦者吹き出し -->
+          <div class="balloon1-left">
+            <p>あなた</p>
+          </div>
+
+         <!-- 対戦相手吹き出し -->
+          <div class="balloon2-right">
+            <p>対戦相手</p>
+          </div>
+
+         <div class="aaa">
+
+          <div id="Rejan1"></div>
+          <div id="Rejan2"></div>
+
+          
+          <button onclick="R_Click(0);" class="button-gu"> グー</button>
+          <button onclick="R_Click(1);" class="button-choki"> チョキ</button>
+          <button onclick="R_Click(2);" class="button-pa"> パー</button>
+          <br />
+
+        </div>
+       
+      
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+          <script src="js/main.js"></script>
+
+      </div>
+</body>
+</html>
